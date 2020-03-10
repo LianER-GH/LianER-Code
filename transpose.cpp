@@ -13,7 +13,20 @@ int main() {
         else  
         {  
             int m[N][M];  
-            int r[M][N];  
+            int r[M][N]; 
+            /*
+            00 01 02  
+			 1  2  3
+            10 11 12    
+			 4  5  6
+
+			00 01
+			 1	4
+			10 11
+			 2  5
+			20 21
+			 3  6
+            */ 
             for(int i = 0;i < N;i++)  
             {  
                 for(int j = 0;j < M;j++)  
